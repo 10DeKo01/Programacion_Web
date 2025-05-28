@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>Contacto - ISTY</title>
+</head>
+<body>
+ <header>
+   <h1>Instituto Superior Tecnológico Yavirac</h1>
+   <nav>
+     <a href="#departamentos">Departamentos</a> |
+     <a href="#contacto">Formulario</a> |
+     <a href="#tabla">Información</a>
+   </nav>
+ </header>
+
+ <section id="departamentos">
+   <h2>Departamentos</h2>
+   <ul>
+     <li>Admisiones</li>
+     <li>Secretaría</li>
+   </ul>
+ </section>
+
+ <section id="contacto">
+   <h2>Formulario de contacto</h2>
+   <form>
+     <!-- (Campos del formulario del ejercicio 5) -->
+	 <label for="nombre">Nombre completo:</label><br>
+		<input type="text" id="nombre" name="nombre" required><br><br>
+
+		<label for="correo">Correo electrónico:</label><br>
+		<input type="email" id="correo" name="correo" required><br><br>
+
+		<label for="telefono">Teléfono:</label><br>
+		<input type="tel" id="telefono" name="telefono"><br><br>
+
+		<label for="asunto">Asunto:</label><br>
+		<input type="text" id="asunto" name="asunto"><br><br>
+
+		<label for="mensaje">Mensaje:</label><br>
+		<textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
+		<!-- E) -->
+		<label for="Departamento">Departamento:</label><br>
+		<select name="menu">
+			<option>Finanzas</option>
+			<option>Marketing</option>
+			<option>Rectoria</option>
+		</select>
+
+		<input type="submit" value="Enviar">
+   </form>
+ </section>
+
+ <section id="tabla">
+   <h2>Tabla de contactos</h2>
+   <table border="1">
+     <!-- (Contenido del ejercicio 4) -->
+	 <tr>
+			<th>Departamento</th>
+			<th>Correo</th>
+			<th>Teléfono</th>
+		</tr>
+		<tr>
+			<td>Admisiones</td>
+			<td>admision@isty.edu.ec</td>
+			<td>02-6000-111</td>
+		</tr>
+		<tr>
+			<td>Secretaría</td>
+			<td>secretaria@isty.edu.ec</td>
+			<td>02-6000-222</td>
+		</tr>
+		<!-- D) -->
+		<tr>
+			<td>Diego Hidalgo</td>
+			<td>diego.hidalgo@isty.edu.ec</td>
+			<td>098-711-8379</td>
+		</tr>
+   </table>
+ </section>
+
+ <footer>
+   <p>© 2025 Instituto Superior Tecnológico Yaruquí - Página educativa para prácticas HTML</p>
+ </footer>
+</body>
+</html>
